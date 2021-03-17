@@ -19,4 +19,9 @@ public class Sample {
             this.func = func;
         }
     }
+public static int add (int x, int y)
+{
+    return (new Sample()).op(Operation.ADD,x,y);
 }
+}
+
